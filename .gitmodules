@@ -1,21 +1,21 @@
 [submodule "AI_API-Wrapper"]
     path = AI_API-Wrapper
-    url = https://github.com/charlesanthony1996/AI_API-Wrapper.git
+    url = https://github.com/Medialab-Parent/AI_API-Wrapper.git
 [submodule "AI_Database"]
     path = AI_Database
-    url = https://github.com/charlesanthony1996/AI_Database.git
+    url = https://github.com/Medialab-Parent/AI_Database.git
 [submodule "AI_Filter"]
     path = AI_Filter
-    url = https://github.com/charlesanthony1996/AI_Filter.git
+    url = https://github.com/Medialab-Parent/AI_Filter.git
 [submodule "AI_Frontend"]
     path = AI_Frontend
-    url = https://github.com/charlesanthony1996/AI_Frontend.git
+    url = https://github.com/Medialab-Parent/AI_Frontend.git
 [submodule "AI_Server"]
     path = AI_Server
-    url = https://github.com/charlesanthony1996/AI_Server.git
+    url = https://github.com/Medialab-Parent/AI_Server.git
 [submodule "Promo_Webpage"]
     path = Promo_Webpage
-    url = https://github.com/charlesanthony1996/Promo_Webpage.git
+    url = https://github.com/Medialab-Parent/Promo_Webpage.git
 [submodule "Prompt_Engineering"]
     path = Prompt_Engineering
-    url = https://github.com/charlesanthony1996/Prompt_Engineering.git
+    url = https://github.com/Medialab-Parent/Prompt_Engineering.git
