@@ -21,4 +21,4 @@
     url = https://github.com/Medialab-Parent/Prompt_Engineering.git
 [submodule "Promo_Webapp"]
     path = Promo_Webapp
-    url = https://github.com/Medialab-Parent/Promo_Webpage.git
+    url = https://github.com/Medialab-Parent/Promo_Webapp.git
