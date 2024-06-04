@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# test
 # Function to open a new terminal tab and run a command
 open_new_tab() {
     osascript <<EOF
