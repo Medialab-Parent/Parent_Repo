@@ -15,7 +15,7 @@ export FLASK_APP_DIR="$(pwd)"
 
 # Commands to run in each service's directory
 CMD1="cd '$FLASK_APP_DIR/AI_API-Wrapper' && nodemon --exec python3 llm_backend.py"
-CMD2="cd '$FLASK_APP_DIR/AI_Filter' && nodemon --exec python3 twitterRoberta.py"
+CMD2="cd '$FLASK_APP_DIR/AI_Filter' && nodemon --exec python3 filter.py"
 CMD3="cd '$FLASK_APP_DIR/AI_Server' && nodemon --exec python3 server.py"
 CMD4="cd '$FLASK_APP_DIR/AI_Database' && nodemon --exec python3 database.py"
 
