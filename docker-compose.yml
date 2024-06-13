@@ -14,13 +14,7 @@ services:
     env_file:
       - './.env'
 
-  # ollama:
-  #   image: ollama/ollama
-  #   ports:
-  #     - "127.0.0.1:4001:11434"
-  #   networks:
-  #     - backend_network
-  #   restart: on-failure
+
 
   server:
     build: ./AI_Server
@@ -67,6 +61,24 @@ services:
     env_file:
       - './.env'
 
+
+  ollama:
+    image: ollama/ollama
+    ports:
+      - "127.0.0.1:4002:11434"
+    networks:
+      - backend_network
+    restart: on-failure
+
+
+
+  localollama:
+    build: ./Local-Ollama
+    ports:
+      - "127.0.0.1:6002:6002" 
+    networks:
+      - backend_network
+    restart: on-failure
 
 networks:
   backend_network:
