@@ -79,6 +79,8 @@ services:
     networks:
       - backend_network
     restart: on-failure
+    volumes:
+      - ./Local-Ollama:/app
 
 networks:
   backend_network:

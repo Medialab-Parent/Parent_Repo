@@ -15,4 +15,4 @@ RUN pip install requests
 EXPOSE 6002
 
 # Run the application
-CMD ["python", "app.py"]
+CMD ["python", "app.py","--debug","run"]
