@@ -56,7 +56,7 @@ def genOllama():
     
 
     if response2.status_code == 200:
-        # Assuming the API returns a JSON object with the key 'Answer'
+        # Assuming the API returns a JSON object with the key 'text'
         ollama_response = response2.text
     else:
         ollama_response = f"Error: {response2.status_code}, {response2.text}"
