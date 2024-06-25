@@ -15,9 +15,13 @@ With this project we want to contribute to making our day-to-day social media ex
 3. Let user's generate counter speech for these hateful comments
 4. Let user's marke hateful comments on their own, if they are not detected by our extension
 
-## Using Docker
+## Running the projec using Docker
 - With docker compose you can run all the submodules (the whole extension) at once. For this, run the following command in a terminal inside of the parent folder.
-> `docke compose up --build`
+> `docke compose up --build` 
+- Afterwards go cd into the Frontend folder to generate a dist folder using the following command
+> `npm run build`
+- Load this dist folder as an extension on your chromium browser by going into your extension list, enabling developer mode and then loading this dist folder 
+  
 
 ## License
 - This project is licensed under the MIT License.
