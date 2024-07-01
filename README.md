@@ -16,11 +16,21 @@ With this project we want to contribute to making our day-to-day social media ex
 4. Let user's marke hateful comments on their own, if they are not detected by our extension
 
 ## Running the project using Docker
-- With docker compose you can run all the submodules (the whole extension) at once. For this, run the following command in a terminal inside of the parent folder.
-> `docker compose up --build` 
-- Afterwards go cd into the Frontend folder to generate a dist folder using the following command
-> `npm run build`
-- Load this dist folder as an extension on your chromium browser by going into your extension list, enabling developer mode and then loading this dist folder 
+
+### Open up the folder of this project in a git terminal and then switch into the AI_Frontend folder to generate a "dist" folder using the following commands
+1. `cd AI_Frontend` 
+2. `npm i`
+3. `npm i vue-i18n --save-dev` 
+4. `npm run build`
+   
+### Next up, to run the backend of this project through docker, go back into the parent folder and execute the following commands
+1. `cd ..`
+2. `docker compose up --build`
+
+### Lastly, load the extension into your chromium browser 
+1. navigate to your extension list
+2. enable developer mode
+3. load the dist folder, you've generated before
   
 
 ## License
