@@ -17,6 +17,12 @@ With this project we want to contribute to making our day-to-day social media ex
 
 ## Running the project using Docker
 
+### Initialize this Git Project
+1. Open up a terminal on your machine
+2. `git clone https://github.com/Medialab-Parent/Parent_Repo.git`
+3. `cd Parent_Repo`
+4. `git submodule update --init --recursive`
+
 ### Open up the folder of this project in a git terminal and then switch into the AI_Frontend folder to generate a "dist" folder using the following commands
 1. `cd AI_Frontend` 
 2. `npm i`
