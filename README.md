@@ -17,7 +17,7 @@ With this project we want to contribute to making our day-to-day social media ex
 
 ## Running the project using Docker
 - With docker compose you can run all the submodules (the whole extension) at once. For this, run the following command in a terminal inside of the parent folder.
-> `docke compose up --build` 
+> `docker compose up --build` 
 - Afterwards go cd into the Frontend folder to generate a dist folder using the following command
 > `npm run build`
 - Load this dist folder as an extension on your chromium browser by going into your extension list, enabling developer mode and then loading this dist folder 
