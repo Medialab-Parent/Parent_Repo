@@ -1,18 +1,18 @@
 services:
-  frontend:
-    build: ./AI_Frontend
-    ports:
-      - "127.0.0.1:80:80"
-    restart: on-failure
-    depends_on:
-      - server
-      - openai_backend
-    networks:
-      - backend_network
-    volumes:
-      - './dist:/dist'
-    env_file:
-      - './.env'
+  # frontend:
+  #   build: ./AI_Frontend
+  #   ports:
+  #     - "127.0.0.1:80:80"
+  #   restart: on-failure
+  #   depends_on:
+  #     - server
+  #     - openai_backend
+  #   networks:
+  #     - backend_network
+  #   volumes:
+  #     - './dist:/dist'
+  #   env_file:
+  #     - './.env'
 
   # ollama:
   #   image: ollama/ollama
