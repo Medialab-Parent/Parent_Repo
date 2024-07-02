@@ -33,6 +33,8 @@ With this project we want to contribute to making our day-to-day social media ex
 1. `cd ..`
 2. `docker compose up --build`
 
+Note: You need to have Docker installed for this to run. Additionally, if you start the servers for the first time and have a weak internet connection, it might take some time for the filter to be up and running.
+
 ### Lastly, load the extension into your chromium browser 
 1. navigate to your extension list
 2. enable developer mode
