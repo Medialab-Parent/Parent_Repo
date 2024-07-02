@@ -17,10 +17,20 @@ services:
   # ollama:
   #   image: ollama/ollama
   #   ports:
-  #     - "127.0.0.1:4001:11434"
+  #     - "127.0.0.1:4002:11434"
   #   networks:
   #     - backend_network
   #   restart: on-failure
+
+  #  localollama:
+  #  build: ./Local-Ollama
+  #  ports:
+  #    - "127.0.0.1:6002:6002" 
+  #  networks:
+  #    - backend_network
+  #  restart: on-failure
+  #  volumes:
+  #    - ./Local-Ollama:/app
 
   server:
     build: ./AI_Server
